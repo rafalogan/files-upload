@@ -1,0 +1,22 @@
+# idea's
+\.idea
+\.vscode
+
+# files
+.DS_Store
+.env
+
+# folders
+\dist
+\build
+\coverage
+\.nyc_output
+**/postgres
+**/cache
+**/mongo
+
+#includes
+!**/modules/cache
+
+# Modules
+node_modules
